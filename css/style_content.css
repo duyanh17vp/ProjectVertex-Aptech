@@ -1,0 +1,125 @@
+
+.section-main,.section-top-heading{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 40px;
+    margin:;
+    width: 100%;
+    height: 100%;
+}
+.section-top-heading h3{
+    font-weight: 700;
+    color: #ff0066;
+}
+.section-heading{
+	display: table;
+    width: 100%;
+    padding: 20px 10px 20px 20px;
+    margin: 20px 0;
+    border-bottom: solid 1px #e8e8e8;
+    color: #3c4245;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    table-layout: fixed;
+};
+
+.content-block{
+    display: block;
+    width: 100%;
+    padding: 20px 10px 20px 20px;
+    float: left;
+    text-align: justify;
+}
+.content-block ul{
+	display: block;
+    width: 100%;
+    float: left;
+    text-align: justify;
+}
+
+.widget{
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 0 30px;
+    border: 1px solid #e6e6e6;
+}
+.widget article{
+    display: block;
+    padding-top:;
+    padding-bottom: 30px;
+}
+.widget-title{
+    position: relative;
+    float: left;
+    width: 100%;
+    line-height: 1;
+    padding: 0 0 15px;
+    margin: 0 0 20px;
+    border-bottom: 2px solid #ebebeb;
+}
+.widget-content {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: block;
+}
+.widget .widget-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #ff3d00;
+    margin: 0 0 -2px;
+}
+.widget .side-img-link {
+    position: relative;
+    float: left;
+    width: 85px;
+    height: 65px;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0 13px 0 0;
+}
+.side-img-link img{
+    width: 85px;
+    height: 65px
+}
+
+.widget .side-header a{
+    font-size: 13px;
+    font-weight: 600;
+    line-height:10px;
+    color:  #404040;
+    text-decoration: none;
+}
+.widget .side-header a:hover{
+    color:  #ff0066;
+}
+/*Modal*/
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+

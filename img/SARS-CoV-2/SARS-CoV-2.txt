@@ -1,0 +1,36 @@
+SARS-CoV-2
+
+1.About
+
+The COVID-19 pandemic, also known as the coronavirus pandemic, is an ongoing pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). 
+It was first identified in December 2019 in Wuhan, China.
+Over the next few months, the illness spread to more than two dozen countries in North America, South America, Europe, and Asia.
+
+2.SARS-CoV-2
+
+SARS-CoV is a species of coronavirus that infects humans, bats and certain other mammals.
+Two strains of the virus have caused outbreaks of severe respiratory diseases in humans: 
+Severe acute respiratory syndrome coronavirus (SARS-CoV or SARS-CoV-1), which caused the 2002–2004 outbreak of severe acute respiratory syndrome (SARS).
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), which is causing the current pandemic of coronavirus disease 2019 (COVID-19).
+
+SARS-CoV-2 is a Baltimore class IV positive-sense single-stranded RNA virus.
+The virus is a large pleomorphic spherical particles with bulbous surface projections that form a corona around the particles in electron micrographs.
+The viral envelope consists of a lipid bilayer where the membrane (M), envelope (E) and spike (S) proteins are anchored.
+
+3.Spreads:
+
+Infections occur mainly through exposure to respiratory droplets when a person is in close contact (within 6 feet) with someone who has COVID-19.
+Respiratory droplets cause infection when they are inhaled or deposited on mucous membranes, such as those that line the inside of the nose and mouth.
+Some infections can be spread by exposure to virus in small droplets and particles that can linger in the air for minutes to hours. 
+These viruses may be able to infect people who are further than 6 feet away from the person who is infected or after that person has left the space.
+
+4.Prevention
+
+Stay at least 6 feet away from others, whenever possible. This is very important in preventing the spread of COVID-19.
+Cover your mouth and nose with a mask when around others. This helps reduce the risk of spread both by close contact and by airborne transmission.
+Wash your hands often with soap and water. If soap and water are not available, use a hand sanitizer that contains at least 60% alcohol.
+Avoid crowded indoor spaces and ensure indoor spaces are properly ventilated by bringing in outdoor air as much as possible. In general, being outdoors and in spaces with good ventilation reduces the risk of exposure to infectious respiratory droplets.
+Stay home and isolate from others when sick.
+Routinely clean and disinfect frequently touched surfaces.
+
+Currently, there are SARS-CoV-2 vaccines in development.

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style type="text/css">
+		form .error {
+			color: #ff0000;
+		}
+		.form-resign label em{
+			color: #ff0000;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<div class="top-header">
+			<nav>
+				<div class="wrapper">
+					<div class="logo"><a href="Trang_chu.html"><img src="img/Logo_text.png"></a></div>
+					<input type="radio" name="slider" id="menu-btn">
+					<input type="radio" name="slider" id="close-btn">
+				<ul class="nav-links">
+					<label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+					<li><a href="Trang_chu.html">Home</a></li>
+					<li><a href="About_us.html">About Us</a></li>
+					<li>
+						<a href="#" class="desktop-item">Viruses <i class="fas fa-chevron-down"></i></a>
+						<input type="checkbox" id="showDrop">
+						<label for="showDrop" class="mobile-item">Viruses <i class="fas fa-chevron-down"></i></label>
+						<ul class="drop-menu">
+							<li><a href="Influenza.html">Influenza</a></li>
+							<li><a href="HIV.html">HIV</a></li>
+							<li><a href="Ebola.html">Ebola</a></li>
+							<li><a href="SARS-CoV-2.html">SARS-CoV-2</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="Covid19.html" class="desktop-item">Covid 19 <i class="fas fa-chevron-down"></i></a>
+						<input type="checkbox" id="showMega">
+						<label for="showMega" class="mobile-item">Covid 19 <i class="fas fa-chevron-down"></i></label>
+						<div class="mega-box">
+							<div class="content-covid">
+							<div id="bannercovid" class="row">
+								<img src="img/Covid_19_banner.jpg" alt="">
+							</div>
+							<div class="row">
+								<header>Questions and answers</header>
+								<ul class="mega-links">
+									<li><a href="covid19_vac.html">Vaccines</a></li>
+									<li><a href="covid19_danger.html">How dangerous it is?</a></li>
+									<li><a href="covid19_test.html">COVID-19 Testing?</a></li>
+								</ul>
+							</div>
+							<div class="row">
+								<header>Advice for the public</header>
+								<ul class="mega-links">
+									<li><a href="Covid19_protect.html">Protect yourself</a></li>
+									<li><a href="Covid19_travel.html">Travel advice</a></li>
+									<li><a href="Covid19_social.html">Social distance</a></li>
+								</ul>
+							</div>
+							</div>
+						</div>
+					</li>
+					<li><a href="Form.html">Feedback</a></li>
+				</ul>
+				<label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+				</div>
+			</nav>
+		</div>
+		<div class="main-header">
+			<div class="row ">
+				<div class="header-logo col-4">
+					<a href="Trang_chu.html"><img src="img/LOGO.png"></a>
+				</div>
+				<div class="banner col-8">
+					
+				</div>
+				
+			</div>
+		</div>
+	</header>
+
+	<section>
+		<div>
+			<ul class="breadcrumb ">
+				<li class="container">
+					<a href="#">Home</a>
+				</li>
+			</ul>
+		</div>
+		<div class="main container">
+			<!-- Form START-->
+			<div class="form-resign">
+				<div class="national-brand text-center mb-15">
+					<div class="text-uppercase"><b>General health declaration information</b></div>
+						<div class="slogan"></div>
+				</div>
+				<div class="text-center text-uppercase">
+					<div class="">( COVID-19 epidemic prevention )</div>
+				</div>
+				<form role="form" name="resign-form">
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="form-group inline-block form-inline label-width "> <label>Full name :<em>(*)</em></label>
+							 
+							<input class="form-control inline-block form-inline " name="fullname" type="text" value="" style="text-transform: uppercase;">
+							</div> 
+						</div> 
+						<div class="col-md-6 col-sm-12">
+							<div class="form-group inline-block form-inline "> <label> ID card :<em>(*)</em></label>
+							<input class="form-control inline-block form-inline " name="Id_card" type="numbers" value="">
+							</div> 
+						</div> 
+					</div>
+
+					<div class="row ">
+						<div class="col-md-6 col-sm-12">
+							<div class="form-group form-inline ">
+								<label>Year of Birth :<em>(*)</em></label>
+								<input class="form-control inline-block form-inline " name="Yearofbirth" type="numbers" value="">
+							</div> 
+						</div> 
+						<div class="col-md-6 col-sm-12">
+							<div class="form-group form-inline  "> <label>Gender :<em>(*)</em></label>
+								<select name="gender" class="form-control inline-block form-inline ">
+									<option value="">Select</option>
+									<option value="Nam">Male</option>
+									<option value="Nu">Female</option>
+									<option value="Khac">Other</option>
+								</select>
+							</div> 
+						</div> 
+					</div>
+
+					<div class="row ">
+						<div class="col-md-6 col-sm-12">
+							<div class="form-group inline-block form-inline label-width "> <label>Phone :<em>(*)</em></label>
+							 
+								<input class="form-control inline-block form-inline " name="phone" type="text" value="">
+							</div> 
+						</div> 
+						<div class="col-md-6 col-sm-12 ">
+							<div class="form-group inline-block form-inline label-width "> <label>Email :<em>(*)</em></label>
+								<input class="form-control inline-block form-inline " name="email" type="text" value="">
+							</div> 
+						</div> 
+					</div>
+
+					<div class="row">
+						<div class="col-md-6 col-sm-12">
+							<div class="form-group inline-block form-inline label-width "> <label><b>Contact address</b> :<em>(*)</em></label>
+							 
+								<input class="form-control inline-block form-inline " name="address" type="text" value="">
+							</div> 
+						</div>
+						<div class="col-md-6 col-sm-12">
+							
+						</div>
+					</div>
+					<hr>
+					<div class=""><b>Have you noticed any of the following signs in the last 21 days? <span class="text-required"></span></b></div>
+					<div class="tableChoiceData mb-20">
+						<div class="col-12">
+							<table class="table table-bordered">
+								<thead>
+									<tr>
+										<th class="text-center">Symptom</th>
+										<th width="100" class="text-center">Yes</th>
+										<th width="100" class="text-center">No</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Fever <span class="text-required"></span></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasFever]" value="1" data-msg-required="Fever field is required"></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasFever]" value="2" checked=""></td>
+									</tr>
+									<tr>
+										<td>Cough <span class="text-required"></span></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasCough]" value="1" data-msg-required="Cough field is required"></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasCough]" value="2" checked=""></td>
+									</tr>
+									<tr>
+										<td>Shortness of breath <span class="text-required"></span></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasBreath]" value="1" data-msg-required="Breath field is required"></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasBreath]" value="2" checked=""></td>
+									</tr>
+									<tr>
+										<td>Pneumonia <span class="text-required"></span></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasPneumonia]" value="1" data-msg-required="Pneumonia field is required"></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasPneumonia]" value="2" checked=""></td>
+									</tr>
+									<tr>
+										<td>Sore throat <span class="text-required"></span></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasSoreThroat]" value="1" data-msg-required="SoreThroat field is required"></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasSoreThroat]" value="2" checked=""></td>
+									</tr>
+									<tr>
+										<td>Tired <span class="text-required"></span></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasFatigue]" value="1" data-msg-required="Fatigue field is required"></td>
+										<td class="text-center"><input type="Radio" class="style-radio" name="fields[hasFatigue]" value="2" checked=""></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<hr>
+					<div class=""><b>During the past 21 days, you were in contact with <span class="text-required"></span></b></div>
+					<div class="row ">
+						<div class="  col-12 ">
+							<table class="table table-bordered tableData2 ">
+								<thead>
+									<tr>
+										<th></th>
+										<th width="100" class="text-center">Yes</th>
+										<th width="100" class="text-center">No</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Sick or suspected person, infected with COVID-19 <span class="text-required">(*)</span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasPatient]" value="1" data-msg-required="History of exposure is required">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasPatient]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>People from countries with COVID-19 disease <span class="text-required">(*)</span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasFromSickCountry]" value="1" data-msg-required="History of exposure is required">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasFromSickCountry]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>People with manifestations (fever, cough, shortness of breath, pneumonia) <span class="text-required">(*)</span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasSick]" value="1" data-msg-required="History of exposure is required">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasSick]" value="2" checked="">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div> 
+					</div> 
+					<hr>
+
+					<div class=""><b>Which of the following diseases do you currently have? <span class="text-required">(*)</span></b></div>
+					<div class="row ">
+						<div class="   col-12 ">
+							<table class="table table-bordered tableData2">
+								<thead>
+									<tr>
+										<th class="text-center">Name of illness</th>
+										<th width="100" class="text-center">Yes</th>
+										<th width="100" class="text-center">No</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Chronic liver disease <span class="text-required"></span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasChronicLiver]" value="1">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasChronicLiver]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>Chronic blood disease <span class="text-required"></span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasChronicBlood]" value="1">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasChronicBlood]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>Chronic lung disease <span class="text-required"></span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasChronicLung]" value="1">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasChronicLung]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>Chronic kidney disease <span class="text-required"></span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasChronicKidney]" value="1">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasChronicKidney]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>Heart-related diseaes <span class="text-required"></span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasHeartrelated]" value="1">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasHeartrelated]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>High Blood Pressure <span class="text-required"></span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasHighBloodPressure]" value="1" data-msg-required="You have not selected exposure history">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasHighBloodPressure]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>HIV <span class="text-required">(*)</span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasHIV]" value="1" data-msg-required="You have not selected exposure history">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasHIV]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>Transplant recipients, Mercury bone <span class="text-required">(*)</span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasOrganTransplant]" value="1" data-msg-required="You have not selected exposure history">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasOrganTransplant]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>Diabetes <span class="text-required">(*)</span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasDiabet]" value="1" data-msg-required="You have not selected exposure history">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasDiabet]" value="2" checked="">
+										</td>
+									</tr>
+									<tr>
+										<td>Cancer <span class="text-required">(*)</span></td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasCancer]" value="1" data-msg-required="You have not selected exposure history">
+										</td>
+										<td class="text-center">
+										<input type="Radio" class="style-radio" name="fields[hasCancer]" value="2" checked="">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div> 
+					</div>
+					<hr>
+					<div class="btn-submit-box text-center">
+						<button type="submit" class="btn btn-success">Submit the declaration</button>
+					</div>
+				</form>
+			</div>
+			<!-- Form END-->
+
+			<!-- Modal Start -->
+				<!-- Modal video-->
+			<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-body">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>        
+							<div class="embed-responsive embed-responsive-16by9">
+								<iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+				<!-- Modal contact form-->
+			<div id="myModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div style="width: 100%; padding-left: 30px;">
+                                <h4 class="modal-title">Contact us</h4>
+                            </div>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button> 
+                        </div>
+                        <div class="modal-body" style="padding: 20px 20px;">
+
+							<form role="form" name="modal-form">
+	                            <div class="form-group">
+	                              <label for="fullname"></span>Full Name</label>
+	                              <input type="text" class="form-control" name="fullname" id="fullname" placeholder="Enter full name...">
+	                            </div>
+	                            <div class="form-group">
+	                              <label for="email"></span>Email</label>
+	                              <input type="email" class="form-control" name="email" id="email" placeholder="Enter email...">
+	                            </div>
+	                            <div class="form-group">
+	                              <label for="phone"></span>Phone Numbers</label>
+	                              <input type="phone" class="form-control" name="phone" id="phone" placeholder="Enter phone numbers...">
+	                            </div>
+	                            <div class="form-group">
+	                              <label for="messg">Message</label>
+	                              <textarea type="text" class="form-control" name="messg" id="messg" placeholder="Enter message..." style="height: 120px;"></textarea>
+	                            </div>
+	                            <div class="modal-footer">
+	                            	<button type="submit" class="btn btn-primary btn-block">Submit</button>
+		                            <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+		                        </div>
+							</form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+			<!--Modal End  -->
+
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer container">
+			<div class="row">
+				<div class="logo-footer col-md-8 col-sm-6">
+					<a href="Trang_chu.html"><img src="img/Logo_new.png"></a>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<ul>
+						<br>
+                        <li>Phone: 9763 9763 33</li>
+                        <li>Email : enquiry@vertexitservices.com</li>
+                        <li>Website: www.vertexitservices.com</li>
+                    </ul>
+				</div>
+			</div>
+			<hr>
+			<div class="row">
+				<div class="col-md-8 col-sm-6 link-back">
+					<ul>
+		                <li><a href="Trang_chu.html">Home</a></li>
+		                <li><a href="about.html">About us</a></li>
+		                <li><a href="covid-19.html">Covid-19</a></li>
+		                <li><a href="" data-toggle="modal" data-target="#myModal">Contact us</a></li>
+		            </ul>
+				</div>
+				<div class="col-md-4 col-sm-6 connect">
+					<strong>CONNECT WITH VERTEX</strong>
+					<br>
+					<ul>
+						<li><a href="http://facebook.com" id="facebook"><i class="fab fa-facebook-square"></i></a></li>
+						<li><a href="http://twitter.com" id="twitter"><i class="fab fa-twitter-square"></i></a></li>
+						<li><a href="https://www.instagram.com/" id="instagram"><i class="fab fa-instagram"></i></a></li>
+						<li><a href="http://www.youtube.com" id="youtube"><i class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+
+			</div>
+            <p>&#169; Copyright &#169; 2020 by Nhóm 3</p>
+        </div>
+	</footer>
+	<script type="text/javascript" src="js/jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/Vertex.js"></script>
+	<script type="text/javascript" src="js/stickySidebar.js"></script>
+	<script type="text/javascript" src="js/form-validation.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+</body>
+
+</html>
